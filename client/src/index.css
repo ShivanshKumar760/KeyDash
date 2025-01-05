@@ -5,13 +5,26 @@
 
 
 @layer base {
-  body {
+  body{
     @apply bg-slate-950 text-slate-50 min-h-screen grid place-items-center	px-4 tracking-wider font-mono;
   }
 }
 
+.min-h-screen {
+  min-height: 50vh;
+}
 .bg-slate-950 {
   --tw-bg-opacity: 1;
   background-color: #292524
   ;
+}
+
+button{
+  margin: 0 !important;
+}
+
+header{
+  text-align: center;
+  height: 100px;
+  width: 200px;
 }
